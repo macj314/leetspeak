@@ -11,6 +11,10 @@ namespace Leet
         {
           array[i] = '3';
         }
+        if (array[i] == 'o')
+        {
+          array[i] = '0';
+        }
       }
       string result = string.Join("", array);
       return result;
