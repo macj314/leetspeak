@@ -19,6 +19,10 @@ namespace Leet
         {
           array[i] = '1';
         }
+        if (array[i] == 't')
+        {
+          array[i] = '7';
+        }
       }
       string result = string.Join("", array);
       return result;
