@@ -24,6 +24,7 @@ Leetspeak:
   * "o" = "0"
   * "I" = "1"
   * "t" = "7"
+  * "s" = "z" (unless it's the first letter of the word)
 <!-- ## Known Bugs
 
 No known bugs as of 5/11/2020 -->
