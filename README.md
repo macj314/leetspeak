@@ -21,6 +21,9 @@ This program requires .NET to be installed. It uses the MSTest tool to test poss
 * Write a Translate() method that will translate a given string into leetspeak.
 Leetspeak:
   * "e" = "3"
+  * "o" = "0"
+  * "I" = "1"
+  * "t" = "7"
 <!-- ## Known Bugs
 
 No known bugs as of 5/11/2020 -->
