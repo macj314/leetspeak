@@ -23,6 +23,13 @@ namespace Leet
         {
           array[i] = '7';
         }
+        if (i > 0 && array[i] == 's')
+        {
+          if (array[i-1] != ' ')
+          {
+            array[i] = 'z';
+          }
+        }
       }
       string result = string.Join("", array);
       return result;
