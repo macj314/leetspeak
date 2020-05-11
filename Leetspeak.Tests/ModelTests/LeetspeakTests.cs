@@ -33,5 +33,12 @@ namespace Leet.Tests
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
       Assert.AreEqual("ar7", testTranslation.Translate("art"));
     }
+
+    [TestMethod]
+    public void Replacescharwithz()
+    {
+      LeetspeakTranslator testTranslation = new LeetspeakTranslator();
+      Assert.AreEqual("sazz", testTranslation.Translate("sass"));
+    }
   }
 }
