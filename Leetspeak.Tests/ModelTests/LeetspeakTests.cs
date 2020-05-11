@@ -10,7 +10,7 @@ namespace Leet.Tests
     public void Replaceecharwith3()
     {
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
-      Assert.AreEqual(l33t, testTranslation.Translate(leet));
+      Assert.AreEqual("l33t", testTranslation.Translate("leet"));
     }
   }
 }
