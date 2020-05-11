@@ -10,7 +10,7 @@ namespace Leet.Tests
     public void Replaceecharwith3()
     {
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
-      Assert.AreEqual("l33t", testTranslation.Translate("leet"));
+      Assert.AreEqual("l3an", testTranslation.Translate("lean"));
     }
 
     [TestMethod]
@@ -24,14 +24,14 @@ namespace Leet.Tests
     public void ReplaceIcharwith1()
     {
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
-      Assert.AreEqual("1llit3rat3", testTranslation.Translate("Illiterate"));
+      Assert.AreEqual("1'll", testTranslation.Translate("I'll"));
     }
 
     [TestMethod]
     public void Replacetcharwith7()
     {
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
-      Assert.AreEqual("7abl3", testTranslation.Translate("table"));
+      Assert.AreEqual("ar7", testTranslation.Translate("art"));
     }
   }
 }
