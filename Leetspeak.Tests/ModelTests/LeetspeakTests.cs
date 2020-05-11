@@ -24,7 +24,7 @@ namespace Leet.Tests
     public void ReplaceIcharwith1()
     {
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
-      Assert.AreEqual("1lliterate", testTranslation.Translate("Illiterate"));
+      Assert.AreEqual("1llit3rat3", testTranslation.Translate("Illiterate"));
     }
   }
 }
