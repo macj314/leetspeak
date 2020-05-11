@@ -26,5 +26,12 @@ namespace Leet.Tests
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
       Assert.AreEqual("1llit3rat3", testTranslation.Translate("Illiterate"));
     }
+
+    [TestMethod]
+    public void Replacetcharwith7()
+    {
+      LeetspeakTranslator testTranslation = new LeetspeakTranslator();
+      Assert.AreEqual("7abl3", testTranslation.Translate("table"));
+    }
   }
 }
