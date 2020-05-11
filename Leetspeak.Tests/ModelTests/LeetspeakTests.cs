@@ -19,5 +19,12 @@ namespace Leet.Tests
       LeetspeakTranslator testTranslation = new LeetspeakTranslator();
       Assert.AreEqual("g0", testTranslation.Translate("go"));
     }
+
+    [TestMethod]
+    public void ReplaceIcharwith1()
+    {
+      LeetspeakTranslator testTranslation = new LeetspeakTranslator();
+      Assert.AreEqual("1lliterate", testTranslation.Translate("Illiterate"));
+    }
   }
 }
