@@ -19,6 +19,7 @@ This program requires .NET to be installed. It uses the MSTest tool to test poss
 ## Specs
 
 * Write a Translate() method that will translate a given string into leetspeak.
+
 Leetspeak:
   * "e" = "3"
   * "o" = "0"
