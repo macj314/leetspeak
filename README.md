@@ -12,8 +12,9 @@ wikipedia page on [leetspeak](https://en.wikipedia.org/wiki/Leet).
 ## Setup/Installation Requirements
 
 This program requires .NET to be installed. It uses the MSTest tool to test possible string inputs.
+
 * Clone this repository
-* Change any tests in Leetspeal.Tests/ModelTests/Leetspeak.cs
+* Change any tests in Leetspeak.Tests/ModelTests/Leetspeak.cs
 * Navigate to the repo in command console. Then navigate to Leetspeak.Tests directory.
 * Run dotnet test
 
